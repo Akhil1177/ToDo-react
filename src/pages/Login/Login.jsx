@@ -13,7 +13,7 @@ const[userData , setUserData]=useState(
           if(localStorage.getItem("loggedInUser")){
               navigate("/todo")
           }
-      })
+      },[])
 
   const navigate = useNavigate();
 

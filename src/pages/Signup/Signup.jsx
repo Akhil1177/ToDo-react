@@ -15,7 +15,7 @@ const Signup = ()=>{
             if(localStorage.getItem("loggedInUser")){
                 navigate("/todo")
             }
-        })
+        },[])
 
   const storeData = ()=>{
     let userDatas = JSON.parse(localStorage.getItem("userDatas"));
