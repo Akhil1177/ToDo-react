@@ -65,6 +65,7 @@ html, body {
 .inputGroup {
   display: flex;
   width: 100%;
+  padding: 0;
   max-width: 500px;
   background: #fff;
   border-radius: 40px;
@@ -80,6 +81,7 @@ html, body {
   background : transparent;
   height: 50px;
   flex: 1;
+  min-width: 0;
   border: none;
   outline: none;
   padding-left: 15px;
