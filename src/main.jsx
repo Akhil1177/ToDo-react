@@ -3,7 +3,7 @@ import './index.css'
 import * as React from "react";
 import { createRoot } from "react-dom/client";
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
   Route,
   Link,
@@ -16,7 +16,7 @@ import Todo from "./pages/Todo/Todo";
 
 
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path : "signup",
     element : <Signup/>
